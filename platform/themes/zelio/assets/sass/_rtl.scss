@@ -1,0 +1,19 @@
+body[dir=rtl] {
+    .svg-icon-ti-ti-arrow-right,
+    .ri-arrow-right-up-line {
+        transform: rotate(180deg);
+    }
+
+    .offCanvas__info {
+        transform: translateX(100%);
+        right: 0;
+        left: unset;
+        &.active {
+            transform: translateX(0);
+        }
+    }
+
+    .offCanvas__close-icon {
+        text-align: left;
+    }
+}
